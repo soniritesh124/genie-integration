@@ -1,3 +1,5 @@
+from homeassistant.helpers.discovery import load_platform
+
 def setup(hass, config):
-    hass.helpers.discovery.load_platform("switch", "genie", {}, config)
+    load_platform(hass, "switch", "genie", {}, config)
     return True
