@@ -1,0 +1,7 @@
+{
+  "name": "Genie Device",
+  "domain": "genie",
+  "documentation": "https://github.com/soniritesh124/genie-integration",
+  "codeowners": ["@soniritesh124"],
+  "iot_class": "local_polling"
+}
